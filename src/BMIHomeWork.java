@@ -1,6 +1,6 @@
 public class BMIHomeWork {
     public static void main(String[] args) {
-        double bmi = bmimethod(90, 180);
+        double bmi = bmimethod(90, 200);
         System.out.println(bmi);
     }
 
