@@ -1,3 +1,5 @@
+package Arrayshere;
+
 public class Test5Arrays2 {
     public static void main(String[] args) {
         char[][] cells;
