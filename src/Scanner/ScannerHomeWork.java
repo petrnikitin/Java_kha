@@ -36,7 +36,7 @@ public class ScannerHomeWork {
         if (a > 0 & b < 0 | a < 0 & b > 0) {
             res = a * b;
         } else {
-            if (a > b) {
+            if (a > b & a>0 & b>0) {
                 res = a - b;
             } else {
                 if (a < 0 & b < 0) {
