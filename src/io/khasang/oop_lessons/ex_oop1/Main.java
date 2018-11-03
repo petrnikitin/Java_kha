@@ -1,4 +1,4 @@
-package io.khasang.oop_lessons;
+package io.khasang.oop_lessons.ex_oop1;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,12 +10,17 @@ public class Main {
         names[0] = "Tom";
         ages[0] = 10;
         weights[0] = 2;
-        System.out.println(feeCat(names[0], ages[0], weights[0]));
+        System.out.println(feedCat(names[0], ages[0], weights[0]));
 
 
     }
 
-    static String feeCat(String name, int age, int weight) {
+    static String feedCat(String name, int age, int weight) {
+        if (age > 10){
+            weight += 1;
+        } else{
+            weight += 2;
+        }
 
         return name + "Вес стал" + weight;
     }
