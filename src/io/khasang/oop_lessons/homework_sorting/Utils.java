@@ -14,13 +14,9 @@ public class Utils {
                     params[i] = params[j];
                     params[j] = temp;
                 }
-
-
             }
-
         }
         String ans = Arrays.toString(params);
-
         return ans;
     }
 }

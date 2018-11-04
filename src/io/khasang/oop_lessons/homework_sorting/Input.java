@@ -17,11 +17,7 @@ public class Input {
             } else {
                 System.out.println("Вы ввели что-то другое");
                 String temp = scanner.nextLine();
-
-
             }
-
-
         }
         return numbers;
     }
